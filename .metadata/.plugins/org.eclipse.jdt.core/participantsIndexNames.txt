@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+C:\Users\ASUS\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3523682471.index
+\AmazonJSP\src\main\java
+C:\Users\ASUS\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\397525794.index
+\JspDemo1\src\main\java

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<y>
+<form action="login" method="post"><input type="text" name="email" placeholder="Enter email"/><br/>
+<input
+<//html>

@@ -1,0 +1,24 @@
+package String;
+
+import java.util.Scanner;
+
+public class reverse
+{
+	public static String reverse(String s)
+	{
+		String res=" ";
+		for(int i=s.length()-1;i>=0;i--)
+		{
+			res+=s.charAt(i);
+		}
+		return res;
+	}
+	public static void main(String...A)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter String");
+		String s=sc.next();
+		System.out.println("Reverse String is :"+reverse(s));
+	}
+
+}

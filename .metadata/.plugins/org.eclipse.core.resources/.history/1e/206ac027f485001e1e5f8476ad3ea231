@@ -1,0 +1,24 @@
+package EmployeeApp;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Scanner;
+
+public class EmpApp 
+{
+	public static void main(String...A)
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter number of employee:");
+		int n= sc.nextInt();
+		Collection c= new ArrayList();
+		for (int i=0;i<1;i++)
+		{
+			
+			c.add(new emp(sc));
+			c.add(new Department(sc));
+		}
+		System.out.println(c);
+	}
+
+}

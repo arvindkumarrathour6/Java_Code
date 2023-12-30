@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{
+    padding:0;
+    margin:0;
+    color:white;
+}
+#box{
+height: 60px;
+background-color:black;
+}
+
+#logo{
+    color:#f0880f;
+    font-size: 25px;
+}
+input{
+    color:black;
+    background-color: #f0880f;
+}
+a{
+    margin-right: 150px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<form action="Welcome.jsp">
+    <div id="box">
+         <a id="logo"> amazon.in</a>
+         <a>Account</a>
+         <a>My cart</a>
+         <a>Contact us</a>
+         <input type="text" name="uname" placeholder="search amazon.in">  
+         <input type="submit" value="Search">
+    </div>
+</form>
+ <img src="aj.jpeg" >	
+</body>
+</html>

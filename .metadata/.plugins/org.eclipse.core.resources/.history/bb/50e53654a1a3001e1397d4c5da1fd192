@@ -1,0 +1,19 @@
+package Arrays;
+
+public class HighestSumOf2Num 
+{
+	public static void main(String[] args) {
+	int	sum=0,s=0;
+	int arr[]= {10,5,15,20,14,13,9};
+	for(int i=1;i<arr.length;i++) {
+		sum=arr[i-1]+arr[i];
+		if(s>=sum) {
+			System.out.println("highest sum: "+s+"of number"+arr[i-1]+" "+arr[i]);
+		    break;
+		}
+		s=sum;
+		
+	}
+	}
+
+}

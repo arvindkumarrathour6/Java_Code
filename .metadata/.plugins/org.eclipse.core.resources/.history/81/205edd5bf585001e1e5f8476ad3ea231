@@ -1,0 +1,25 @@
+package EmployeeApp;
+
+import java.util.Scanner;
+
+public class emp {
+	
+	String ename;
+	int eid;
+	String department;
+	public emp(Scanner sc) 
+	{
+		System.out.println("Enter employee name");
+		this.ename = sc.next();
+		System.out.println("Enter employee ID");
+		this.eid = sc.nextInt();
+		System.out.println("Enter employee Department");
+		this.department = sc.next();
+	}
+	@Override
+	public String toString() {
+		return this.ename+" "+this.eid+" "+this.department;
+	}
+	
+
+}

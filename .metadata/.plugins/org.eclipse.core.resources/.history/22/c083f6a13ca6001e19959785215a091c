@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Amazon.com</title>
+</head>
+<body>
+<div id="box">
+    <a id="logo"> amazon.in</a>
+    <a>Account</a>
+    <a>My cart</a>
+    <a>Contact us</a>
+    <input placeholder="search amazon.in">
+    <button>Search</button>
+   </div> 
+</div>
+</body>
+</html>

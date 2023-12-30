@@ -1,0 +1,22 @@
+package String;
+
+public class StringDemo1 
+{
+	public static void main(String[] args) 
+	{
+		String s="Arvind";
+		
+		int len=s.length();
+		System.out.println(len);
+		
+		char [] arr=s.toCharArray();
+		int c=0;
+		
+		for(int i=0;i<arr.length;i++) {
+			System.out.println(arr[i]);
+			c++;
+		}
+		System.out.println(c);
+	}
+  
+}
